@@ -1,4 +1,4 @@
-import ExerciseDetails from '@/components/ExerciseDetails';
+import ExerciseDetails from '../../components/ExerciseDetails';
 
 const ExerciseDetailsPage: React.FC = () => {
   return <ExerciseDetails />;

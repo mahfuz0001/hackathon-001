@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import muscleData from '@/constant/listOfTargetMuscle.json';
+import muscleData from '../../constant/listOfTargetMuscle.json';
 
 type Muscle = {
   name: string;

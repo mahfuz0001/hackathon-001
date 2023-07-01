@@ -1,6 +1,6 @@
-import Navbar from '@/components/Navbar';
-import ButtonLink from '@/components/links/ButtonLink';
-import PrimaryLink from '@/components/links/PrimaryLink';
+import Navbar from '../../components/Navbar';
+import ButtonLink from '../../components/links/ButtonLink';
+import PrimaryLink from '../../components/links/PrimaryLink';
 import Image from 'next/image';
 import React from 'react';
 

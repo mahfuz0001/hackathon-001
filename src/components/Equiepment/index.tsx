@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import equipmentData from '@/constant/listOfEquipment.json';
+import equipmentData from '../../constant/listOfEquipment.json';
 
 type Equipment = {
   name: string;

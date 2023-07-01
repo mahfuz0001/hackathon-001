@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import axios from 'axios';
-import Navbar from '@/components/Navbar';
-import Button from '@/components/buttons/Button';
-import Footer from '@/components/Footer';
+import Navbar from '../components/Navbar';
+import Button from '../components/buttons/Button';
+import Footer from '../components/Footer';
 
 const Contact: React.FC = () => {
   const [name, setName] = useState('');

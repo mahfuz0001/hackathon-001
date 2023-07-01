@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
-import bodyPartsData from '@/constant/listOfBodyParts.json';
+import bodyPartsData from '../../constant/listOfBodyParts.json';
 
 type BodyPart = {
   name: string;

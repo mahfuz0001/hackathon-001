@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import Navbar from '@/components/Navbar';
+import Navbar from '../components/Navbar';
 import axios from 'axios';
-import Footer from '@/components/Footer';
+import Footer from '../components/Footer';
 
 const ProfilePage: React.FC = () => {
   const [profile, setProfile] = useState({

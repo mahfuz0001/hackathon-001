@@ -2,6 +2,7 @@ import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import Navbar from '../../components/Navbar';
+import Image from 'next/image';
 
 type Exercise = {
   bodyPart: string;
@@ -48,9 +49,10 @@ const ExerciseDetails: React.FC = () => {
           <p className='mb-2'>Equipment: {exercise.equipment}</p>
           <p className='mb-2'>Target: {exercise.target}</p>
           <div className='mt-6'>
-            <img
+            <Image
               src={exercise.gifUrl}
               alt={exercise.name}
+              fill
               className='w-full rounded-lg'
             />
           </div>

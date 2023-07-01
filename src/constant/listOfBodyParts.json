@@ -1,0 +1,42 @@
+[
+  {
+    "name": "back",
+    "description": "Back exercises focus on strengthening the muscles in your upper and lower back, helping to improve posture and stability. These exercises often target the muscles along the spine and promote overall back health."
+  },
+  {
+    "name": "cardio",
+    "description": "Cardio exercises, also known as cardiovascular exercises, are activities that elevate your heart rate and increase your breathing rate. These exercises help to improve cardiovascular fitness, burn calories, and enhance overall endurance and stamina."
+  },
+  {
+    "name": "chest",
+    "description": "Chest exercises primarily target the muscles in your chest region, including the pectoralis major and minor muscles. These exercises help to strengthen and tone the chest muscles, contributing to a well-developed upper body and improved posture."
+  },
+  {
+    "name": "lower arms",
+    "description": "Lower arm exercises focus on strengthening the muscles in your forearms, including the wrist flexors and extensors. These exercises can improve grip strength, wrist stability, and overall forearm muscular development."
+  },
+  {
+    "name": "lower legs",
+    "description": "Lower leg exercises primarily target the muscles in your calves, including the gastrocnemius and soleus muscles. These exercises help to strengthen and tone the calf muscles, contributing to improved lower leg strength and stability."
+  },
+  {
+    "name": "neck",
+    "description": "Neck exercises aim to strengthen and stretch the muscles in your neck, including the trapezius, sternocleidomastoid, and scalene muscles. These exercises can help alleviate neck tension, improve posture, and enhance neck stability."
+  },
+  {
+    "name": "shoulders",
+    "description": "Shoulder exercises focus on strengthening the muscles around the shoulder joint, including the deltoids, rotator cuff muscles, and trapezius. These exercises can improve shoulder stability, enhance upper body strength, and promote balanced shoulder development."
+  },
+  {
+    "name": "upper arms",
+    "description": "Upper arm exercises target the muscles in your upper arms, including the biceps and triceps. These exercises help to strengthen and tone the arms, contributing to improved arm definition, functional strength, and overall upper body aesthetics."
+  },
+  {
+    "name": "upper legs",
+    "description": "Upper leg exercises primarily target the muscles in your thighs, including the quadriceps and hamstrings. These exercises help to strengthen and tone the leg muscles, contributing to improved lower body strength, stability, and overall athletic performance."
+  },
+  {
+    "name": "waist",
+    "description": "Waist exercises focus on strengthening the muscles in your core region, including the abdominal muscles, obliques, and lower back muscles. These exercises can help improve core stability, enhance posture, and contribute to a stronger and more defined waistline."
+  }
+]

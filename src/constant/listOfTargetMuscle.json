@@ -1,0 +1,46 @@
+[
+  {
+    "name": "abdominals",
+    "description": "The abdominal muscles, commonly referred to as abs, are a group of muscles in the front of the abdomen. They play a key role in stabilizing the core and are important for maintaining posture and supporting various movements."
+  },
+  {
+    "name": "biceps",
+    "description": "The biceps brachii, commonly known as biceps, are a pair of muscles located in the upper arm between the shoulder and elbow. They are responsible for flexing the elbow joint and supinating the forearm."
+  },
+  {
+    "name": "calves",
+    "description": "The calf muscles, also known as the gastrocnemius and soleus muscles, are located in the lower leg. They are responsible for plantar flexion of the foot, which allows you to point your toes downward."
+  },
+  {
+    "name": "chest",
+    "description": "The chest muscles, also known as the pectoral muscles, are a group of muscles in the front of the chest. They are involved in various movements of the shoulder and play a significant role in pushing and pressing motions."
+  },
+  {
+    "name": "forearms",
+    "description": "The forearm muscles are a group of muscles located in the lower arm between the elbow and wrist. They are responsible for various movements of the wrist and fingers, including gripping and wrist flexion/extension."
+  },
+  {
+    "name": "glutes",
+    "description": "The gluteal muscles, commonly known as glutes, are a group of muscles in the buttocks. They play a crucial role in hip extension, abduction, and rotation, as well as providing stability and support to the pelvis."
+  },
+  {
+    "name": "hamstrings",
+    "description": "The hamstring muscles are a group of muscles located in the back of the thigh. They are responsible for bending the knee and extending the hip joint, playing a significant role in walking, running, and jumping."
+  },
+  {
+    "name": "quadriceps",
+    "description": "The quadriceps muscles, commonly referred to as quads, are a group of muscles located in the front of the thigh. They are responsible for extending the knee and are involved in movements such as walking, running, and jumping."
+  },
+  {
+    "name": "shoulders",
+    "description": "The shoulder muscles, also known as deltoid muscles, are a group of muscles that surround the shoulder joint. They are responsible for various movements of the arm, including abduction, flexion, and rotation."
+  },
+  {
+    "name": "trapezius",
+    "description": "The trapezius muscle, commonly known as traps, is a large muscle located in the upper back and neck. It plays a key role in stabilizing and moving the shoulder blades, as well as supporting the neck and head."
+  },
+  {
+    "name": "triceps",
+    "description": "The triceps brachii, commonly known as triceps, are a group of muscles located in the back of the upper arm. They are responsible for extending the elbow joint and are involved in pushing movements."
+  }
+]

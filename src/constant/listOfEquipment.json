@@ -1,0 +1,70 @@
+[
+  {
+    "name": "assisted",
+    "description": "Assisted equipment is designed to provide support and help users perform exercises with reduced body weight, often used for rehabilitation and training with less stress on joints."
+  },
+  {
+    "name": "band",
+    "description": "Resistance bands are elastic bands used to add resistance to exercises, helping to build strength and improve flexibility."
+  },
+  {
+    "name": "barbell",
+    "description": "A barbell is a long metal bar with weights attached to both ends, commonly used for weightlifting and strength training exercises."
+  },
+  {
+    "name": "body weight",
+    "description": "Bodyweight exercises involve using your own body weight as resistance, such as push-ups, squats, and lunges."
+  },
+  {
+    "name": "bosu ball",
+    "description": "A Bosu ball is a half-circle stability ball placed on a rigid platform, used to improve balance, stability, and core strength."
+  },
+  {
+    "name": "cable",
+    "description": "Cable machines use adjustable pulleys and cables to provide resistance for various exercises, offering versatility and targeting different muscle groups."
+  },
+  {
+    "name": "dumbbell",
+    "description": "A dumbbell is a small handheld weight used for resistance training, offering a wide range of exercises to target specific muscles."
+  },
+  {
+    "name": "elliptical machine",
+    "description": "An elliptical machine is a low-impact cardio machine that simulates stair climbing, walking, and running, providing a full-body workout."
+  },
+  {
+    "name": "ez barbell",
+    "description": "An EZ barbell is a specialized barbell with a zigzag or W-shaped design, mainly used for bicep curls and tricep exercises."
+  },
+  {
+    "name": "hammer",
+    "description": "A hammer is a weighted exercise tool with a handle, used for swinging and rotation exercises to build strength and power."
+  },
+  {
+    "name": "kettlebell",
+    "description": "A kettlebell is a cast-iron ball with a handle, used for dynamic exercises that combine strength, cardio, and flexibility training."
+  },
+  {
+    "name": "leverage machine",
+    "description": "Leverage machines use barbells and weight plates to provide resistance, often providing a more stable and controlled workout environment."
+  },
+  {
+    "name": "medicine ball",
+    "description": "A medicine ball is a weighted ball used for dynamic exercises, adding resistance and challenge to various movements."
+  },
+  {
+    "name": "olympic barbell",
+    "description": "An Olympic barbell is a heavy-duty barbell used in Olympic weightlifting, powerlifting, and strength training exercises."
+  },
+  {
+    "name": "resistance band",
+    "description": "Resistance bands are elastic bands used to add resistance to exercises, helping to build strength and improve flexibility."
+  },
+  {
+    "name": "roller",
+    "description": "A roller is a foam or grid-textured cylinder used for self-massage and myofascial release, helping to improve flexibility and reduce muscle soreness."
+  },
+  {
+    "name": "rope",
+    "description": "Ropes, such as battle ropes, are heavy and thick ropes used for full-body workouts that engage the core and upper body muscles."
+  }
+]

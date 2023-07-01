@@ -43,6 +43,7 @@ const Exercises = () => {
             <p className='mb-2'>Equipment: {exercise.equipment}</p>
             <p className='mb-2'>Target: {exercise.target}</p>
             <Image
+              unoptimized={true}
               src={exercise.gifUrl}
               alt={exercise.name}
               fill

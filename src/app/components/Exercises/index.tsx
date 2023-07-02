@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import axios from 'axios';
+import Image from 'next/image';
 
 type Exercise = {
   bodyPart: string;
@@ -41,7 +42,7 @@ const Exercises = () => {
             <p className='mb-2'>Body Part: {exercise.bodyPart}</p>
             <p className='mb-2'>Equipment: {exercise.equipment}</p>
             <p className='mb-2'>Target: {exercise.target}</p>
-            <img
+            <Image
               className='w-full rounded'
               src={exercise.gifUrl}
               alt={exercise.name}

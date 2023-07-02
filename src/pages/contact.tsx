@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import axios from 'axios';
-import Navbar from '../components/Navbar';
-import Button from '../components/buttons/Button';
-import Footer from '../components/Footer';
+import Navbar from '../app/components/Navbar';
+import Button from '../app/components/buttons/Button';
+import Footer from '../app/components/Footer';
 
 const Contact: React.FC = () => {
   const [name, setName] = useState('');
@@ -28,7 +28,6 @@ const Contact: React.FC = () => {
 
   return (
     <>
-      <Navbar />
       <div className='container mx-auto px-4 py-8'>
         <h2 className='mb-4 text-center text-3xl font-bold'>Contact Us</h2>
         {success ? (
@@ -84,7 +83,6 @@ const Contact: React.FC = () => {
           </form>
         )}
       </div>
-      <Footer />
     </>
   );
 };

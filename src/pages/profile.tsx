@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import Navbar from '../components/Navbar';
+import Navbar from '../app/components/Navbar';
 import axios from 'axios';
-import Footer from '../components/Footer';
+import Footer from '../app/components/Footer';
 
 const ProfilePage: React.FC = () => {
   const [profile, setProfile] = useState({
@@ -59,7 +59,6 @@ const ProfilePage: React.FC = () => {
 
   return (
     <>
-      <Navbar />
       <div className='container mx-auto items-center px-4 py-8'>
         <h2 className='mb-4 text-3xl font-bold'>Profile Page</h2>
         <div className='flex'>
@@ -180,7 +179,6 @@ const ProfilePage: React.FC = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 };

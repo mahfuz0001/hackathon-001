@@ -49,4 +49,6 @@ const TextButton = React.forwardRef<HTMLButtonElement, TextButtonProps>(
   }
 );
 
+TextButton.displayName = 'TextButton';
+
 export default TextButton;

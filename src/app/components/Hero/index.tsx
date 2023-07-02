@@ -9,7 +9,6 @@ type Props = {};
 const Hero: React.FC<Props> = (props) => {
   return (
     <div>
-      <Navbar />
       <div className='mt-14 h-auto w-full'>
         <div className='container mx-auto flex flex-col md:flex-row'>
           <div className='md:w-1/2'>

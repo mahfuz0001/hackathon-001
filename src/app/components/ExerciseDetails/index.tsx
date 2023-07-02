@@ -2,6 +2,8 @@ import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import Navbar from '../../components/Navbar';
+import DetailsHero from './DetailsHero';
+import Footer from '../../components/Footer';
 
 type Exercise = {
   bodyPart: string;
@@ -41,21 +43,8 @@ const ExerciseDetails: React.FC = () => {
   return (
     <>
       <Navbar />
-      <div className='container mx-auto px-4 py-8'>
-        <div className='mx-auto max-w-lg'>
-          <h2 className='mb-4 text-3xl font-bold'>{exercise.name}</h2>
-          <p className='mb-2'>Body Part: {exercise.bodyPart}</p>
-          <p className='mb-2'>Equipment: {exercise.equipment}</p>
-          <p className='mb-2'>Target: {exercise.target}</p>
-          <div className='mt-6'>
-            <img
-              src={exercise.gifUrl}
-              alt={exercise.name}
-              className='w-full rounded-lg'
-            />
-          </div>
-        </div>
-      </div>
+      <DetailsHero exercise={exercise} />
+      <Footer />
     </>
   );
 };

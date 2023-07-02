@@ -1,13 +1,13 @@
 import * as React from 'react';
 
-import Layout from '../components/layout/Layout';
-import Seo from '../components/Seo';
-import Hero from '../components/Hero';
-import Exercises from '../components/Exercises';
-import Equipment from '../components/Equiepment';
-import BodyParts from '../components/BodyParts';
-import Muscles from '../components/Muscles';
-import Footer from '../components/Footer';
+import Layout from '../app/layout/Layout';
+import Seo from '../app/Seo';
+import Hero from '../app/components/Hero';
+import Exercises from '../app/components/Exercises';
+import Equipment from '../app/components/Equiepment';
+import BodyParts from '../app/components/BodyParts';
+import Muscles from '../app/components/Muscles';
+import Footer from '../app/components/Footer';
 
 export default function HomePage() {
   return (
@@ -22,7 +22,6 @@ export default function HomePage() {
           <Equipment />
           <BodyParts />
           <Muscles />
-          <Footer />
         </section>
       </main>
     </Layout>

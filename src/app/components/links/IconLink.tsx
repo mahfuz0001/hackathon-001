@@ -1,10 +1,13 @@
 import * as React from 'react';
 import { IconType } from 'react-icons';
-import { ImSpinner2 } from 'react-icons/im';
 
-import clsxm from '@/lib/clsxm';
+import clsxm from '../../../lib/clsxm';
 
-const IconButtonVariant = [
+import UnstyledLink, {
+  UnstyledLinkProps,
+} from '../../components/links/UnstyledLink';
+
+const IconLinkVariant = [
   'primary',
   'outline',
   'ghost',
@@ -12,35 +15,29 @@ const IconButtonVariant = [
   'dark',
 ] as const;
 
-type IconButtonProps = {
-  isLoading?: boolean;
+type IconLinkProps = {
   isDarkBg?: boolean;
-  variant?: (typeof IconButtonVariant)[number];
+  variant?: (typeof IconLinkVariant)[number];
   icon?: IconType;
   iconClassName?: string;
-} & React.ComponentPropsWithRef<'button'>;
+} & Omit<UnstyledLinkProps, 'children'>;
 
-const IconButton = React.forwardRef<HTMLButtonElement, IconButtonProps>(
+const IconLink = React.forwardRef<HTMLAnchorElement, IconLinkProps>(
   (
     {
       className,
-      disabled: buttonDisabled,
-      isLoading,
-      variant = 'primary',
-      isDarkBg = false,
       icon: Icon,
+      variant = 'outline',
+      isDarkBg = false,
       iconClassName,
       ...rest
     },
     ref
   ) => {
-    const disabled = isLoading || buttonDisabled;
-
     return (
-      <button
+      <UnstyledLink
         ref={ref}
         type='button'
-        disabled={disabled}
         className={clsxm(
           'inline-flex items-center justify-center rounded font-medium',
           'focus-visible:ring-primary-500 focus:outline-none focus-visible:ring',
@@ -84,30 +81,16 @@ const IconButton = React.forwardRef<HTMLButtonElement, IconButtonProps>(
           ],
           //#endregion  //*======== Variants ===========
           'disabled:cursor-not-allowed',
-          isLoading &&
-            'relative text-transparent transition-none hover:text-transparent disabled:cursor-wait',
           className
         )}
         {...rest}
       >
-        {isLoading && (
-          <div
-            className={clsxm(
-              'absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2',
-              {
-                'text-white': ['primary', 'dark'].includes(variant),
-                'text-black': ['light'].includes(variant),
-                'text-primary-500': ['outline', 'ghost'].includes(variant),
-              }
-            )}
-          >
-            <ImSpinner2 className='animate-spin' />
-          </div>
-        )}
         {Icon && <Icon className={clsxm(iconClassName)} />}
-      </button>
+      </UnstyledLink>
     );
   }
 );
 
-export default IconButton;
+IconLink.displayName = 'IconLink';
+
+export default IconLink;
